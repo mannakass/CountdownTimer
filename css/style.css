@@ -1,5 +1,7 @@
 body {
   @import "tailwindcss";
+  cursor: url(https://cdn.custom-cursor.com/db/357/32/arrow20641.png), pointer !important;
+
   background-image: url("../img/background.jpg");
   background-size: cover;
   color: white;
