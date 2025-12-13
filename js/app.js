@@ -18,27 +18,27 @@ const format = (t) => {
 
 const render = (time) => {
   app.innerHTML = `
-    <div class="count-down flex flex-row gap-6 justify-center items-center">
-            <div class="timer px-6 py-6 border rounded-xl border-amber-50 w-40 backdrop-blur-sm">
-                <h2 class="days text-8xl font-bold flex justify-center py-4">${format(
+    <div class="count-down flex flex-row gap-4 justify-center items-center">
+            <div class="timer py-6 border rounded-xl border-neutral-500 w-70 backdrop-blur-sm">
+                <h2 class="days text-9xl font-bold flex justify-center py-4">${format(
                   time.days
                 )}</h2>
                 <small class= "flex justify-center text-xl ">Days</small>
             </div>
-            <div class="timer px-6 py-6 border rounded-xl border-amber-50 w-40 backdrop-blur-sm">
-                <h2 class="hours text-8xl font-bold flex justify-center py-4">${format(
+            <div class="timer  py-6 border rounded-xl border-neutral-500 w-70 backdrop-blur-sm">
+                <h2 class="hours text-9xl font-bold flex justify-center py-4">${format(
                   time.hours
                 )}</h2>
                 <small class="flex justify-center  text-xl">Hours</small>
             </div>
-            <div class="timer px-6 py-6 border rounded-xl border-amber-50 w-40 backdrop-blur-sm">
-                <h2 class="minutes text-8xl font-bold flex justify-center py-4">${format(
+            <div class="timer  py-6 border rounded-xl border-neutral-500 w-70 backdrop-blur-sm">
+                <h2 class="minutes text-9xl font-bold flex justify-center py-4">${format(
                   time.minutes
                 )}</h2>
                 <small class="flex justify-center  text-xl">Minutes</small>
             </div>
-            <div class="timer px-6 py-6 border rounded-xl border-amber-50 w-40 backdrop-blur-sm">
-                <h2 class="seconds text-8xl font-bold flex justify-center py-4">${format(
+            <div class="timer  py-6 border rounded-xl border-neutral-500 w-70 backdrop-blur-sm">
+                <h2 class="seconds text-9xl font-bold flex justify-center py-4">${format(
                   time.seconds
                 )}</h2>
                 <small class="flex justify-center  text-xl">Seconds</small>

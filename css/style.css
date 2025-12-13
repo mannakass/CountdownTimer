@@ -1,10 +1,17 @@
+.zalando-sans-expanded-400 {
+  font-family: "Zalando Sans Expanded", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
 body {
   @import "tailwindcss";
   cursor: url(https://cdn.custom-cursor.com/db/357/32/arrow20641.png), pointer !important;
-
   background-image: url("../img/background.jpg");
   background-size: cover;
   color: white;
+  font-family: Zalando Sans Expanded;
 }
 
 small {
