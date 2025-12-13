@@ -1,0 +1,6 @@
+body {
+  @import "tailwindcss";
+  background-image: url("../img/background.jpg");
+  background-size: cover;
+  color: white;
+}

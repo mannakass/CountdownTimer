@@ -18,22 +18,26 @@ const format = (t) => {
 
 const render = (time) => {
   app.innerHTML = `
-        <div class="count-down">
-            <div class="timer">
-                <h2 class="days">${format(time.days)}</h2>
-                <small>Days</small>
+    <div class="count-down flex flex-row min-h-screen justify-center items-center">
+            <div class="timer px-6 border border-amber-50">
+                <h2 class="days text-7xl font-bold ">${format(time.days)}</h2>
+                <small class= "flex justify-center text-xl ">Days</small>
             </div>
-            <div class="timer">
-                <h2 class="hours">${format(time.hours)}</h2>
-                <small>Hours</small>
+            <div class="timer px-6 border border-amber-50">
+                <h2 class="hours text-7xl font-bold ">${format(time.hours)}</h2>
+                <small class="flex justify-center  text-xl">Hours</small>
             </div>
-            <div class="timer">
-                <h2 class="minutes">${format(time.minutes)}</h2>
-                <small>Minutes</small>
+            <div class="timer px-6 border border-amber-50">
+                <h2 class="minutes text-7xl font-bold ">${format(
+                  time.minutes
+                )}</h2>
+                <small class="flex justify-center  text-xl">Minutes</small>
             </div>
-            <div class="timer">
-                <h2 class="seconds">${format(time.seconds)}</h2>
-                <small>Seconds</small>
+            <div class="timer px-6 border border-amber-50">
+                <h2 class="seconds text-7xl font-bold ">${format(
+                  time.seconds
+                )}</h2>
+                <small class="flex justify-center  text-xl">Seconds</small>
             </div>
         </div>
         `;
